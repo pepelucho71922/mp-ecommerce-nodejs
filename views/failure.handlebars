@@ -1,0 +1,31 @@
+<h1>Pago fallido! </h1>
+<div class="alert alert-danger" role="alert">
+    Pago fallido!
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">{{collection_id}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">estado</th>
+      <td>{{collection_status}}</td>
+    </tr>
+    <tr>
+      <th scope="row">external reference</th>
+      <td>{{external_reference}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Tipo de pago</th>
+      <td>{{payment_type}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Preference id</th>
+      <td>{{preference_id}}</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" onclick="location.href='/'" class="btn btn-primary">Seguir comprando</button>
